@@ -36,3 +36,6 @@ yarn-error.log*
 # next.js
 node_modules
 .next
+
+# Visual Studio Code
+.vscode 
