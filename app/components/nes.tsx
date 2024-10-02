@@ -21,15 +21,11 @@ type Props = {
 
 export const NES: React.FC<Props> = (props: Props) => {
   type ScreenHandle  = React.ElementRef<typeof Screen>;
-
   type ActionsHandle = React.ElementRef<typeof Actions>;
-
   type PillsHandle   = React.ElementRef<typeof Pills>;
 
   let screen  = useRef<ScreenHandle>();
-
   let actions = useRef<ActionsHandle>();
-
   let pills   = useRef<PillsHandle>();
 
   let engine: Engine;
