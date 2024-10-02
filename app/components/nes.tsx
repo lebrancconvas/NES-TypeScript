@@ -6,13 +6,13 @@
  */
 import React  from 'react';
 import styles from '../../styles/NES.module.css'
-import { useRef          } from 'react';
-import { Button          } from '../api/controller';
-import { Actions         } from './actions';
-import { Engine          } from './engine';
-import { Logo            } from './logo';
-import { Pills           } from './pills';
-import { Screen          } from './screen';
+import { useRef  } from 'react';
+import { Button  } from '../api/controller';
+import { Actions } from './actions';
+import { Engine  } from './engine';
+import { Logo    } from './logo';
+import { Pills   } from './pills';
+import { Screen  } from './screen';
 
 type Props = {
   width:  number;
